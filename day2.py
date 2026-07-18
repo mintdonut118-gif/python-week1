@@ -8,11 +8,14 @@
 #     print("fizz")
 #   else :
 #     print(number)
-number=10
-number=int(number)
-while number>0:
- print(number)
- number=number-1
- if number==4:
-    break
+# number=10
+# number=int(number)
+# while number>0:
+#  print(number)
+#  number=number-1
+#  if number==4:
+#     break
+marks=[90,55,44,32,33]
+for i,mark in enumerate(marks,start=1):
+        print(f"Subject{i}:{mark}")
  
