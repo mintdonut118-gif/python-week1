@@ -18,15 +18,27 @@
 # marks=[90,55,44,32,33]
 # for i,mark in enumerate(marks,start=1):
 #         print(f"Subject{i}:{mark}")
-realpin="4321"
-attempt=0
-while attempt<4:
-    pin=input("enter the pin:  ")
-    if pin==realpin:
-       print("Pin is right")
-       break
-    else:
-     print("try again")
-    attempt=attempt+1
-else:
-     print("card locked") 
+# realpin="4321"
+# attempt=0
+# while attempt<4:
+#     pin=input("enter the pin:  ")
+#     if pin==realpin:
+#        print("Pin is right")
+#        break
+#     else:
+#      print("try again")
+#     attempt=attempt+1
+# else:
+#      print("card locked") 
+import random
+secret=random.randint(1,100)
+while True:
+ number=input("enter the number")
+ number=int(number)
+ if(number>secret):
+   print("lower")
+ elif(number<secret):
+  print("higher")
+ else:
+  print("right  ans")
+  break
