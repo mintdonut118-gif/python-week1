@@ -1,0 +1,2 @@
+Hyderbad|Bangalore|1000
+Visakapatnam|Hyderbad|600

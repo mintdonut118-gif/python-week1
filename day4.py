@@ -36,12 +36,12 @@
 # routes = [("Hyderabad", "Bangalore", 570), ("Hyderabad", "Vijayawada", 270)]
 # for intial,destination,distance in routes:
 #     print(f"{intial}--->{destination},{distance}")
-nums = [1, 3, 3, 7, 1, 9, 7]
-duplicate=[]
-for i in nums:
-    if i not in duplicate:
-        duplicate.append(i)
-print(duplicate)
+# nums = [1, 3, 3, 7, 1, 9, 7]
+# duplicate=[]
+# for i in nums:
+#     if i not in duplicate:
+#         duplicate.append(i)
+# print(duplicate)
 
 
 
